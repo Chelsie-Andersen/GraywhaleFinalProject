@@ -437,8 +437,13 @@ button {
 }
 
 .NewVA {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
-  padding: auto;
-  margin-right:25%;
+  margin-right:10%;
  }
+
+#Memberships {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 130px;
+  }
