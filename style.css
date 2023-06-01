@@ -409,3 +409,36 @@ button {
   margin-right: 241.5px;
   padding-bottom: 130px;
 }
+
+#Merch1 {
+  margin-left: 241.5px;
+  margin-right: 241.5px;
+  padding-bottom: 130px;
+}
+
+.MerchTitle {
+  display: inline-flex;
+  justify-content: flex-start;
+   margin-left: 300px;
+   margin-right: 52%;
+
+}
+
+.VAMerch {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: auto;
+}
+
+.ProductVA {
+ display: flex;
+ justify-content: end;
+ margin-right: 5%;
+}
+
+.NewVA {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: auto;
+  margin-right:25%;
+ }
