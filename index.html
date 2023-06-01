@@ -3,11 +3,59 @@
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
+
+  <header id="nav-menu" aria-label="navigation bar">
+    <div class="float" style="background-color: #19313B;">
+        <div id="killercard" class="text-center float-md-none" style="color: white;">Sign Up for Lifetime Discounts With Our Killerwhale Card! Details
+            <u class="float-right" style="padding-right: 5%;">Cart<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span></u>
+            <u  style="padding-right: 5%; text-underline-position: below;">Login</u>
+            <u  style="padding-right: 5%; text-underline-position: below;">Account</u>
+        </div>
+    </div>
+      <div class="nav-start">
+        <a class="logo" href="/">
+          <img src="./Images/DarkTextLogo.png" width="320px" height="" alt="Dark Blue Logo"/>
+        </a>
+        <nav class="menu float-md-none">
+          <ul class="menu-bar">
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="browse">
+                Music
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+            </li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                Movies
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+            </li>
+            <li><a class="nav-link" href="/">Games</a></li>
+            <li><a class="nav-link" href="/">More</a></li>
+            <li><a class="nav-link" href="/">About</a></li>
+          </ul>
+        </nav>
+    <div class="wrapper">
+        <div class="container">
+        <form role="search" method="get" class="search-form form" action="">
+            <label>
+                <span class="screen-reader-text">Search for...</span>
+                <input type="search" class="search-field" placeholder="Start Searching" value="" name="s" title="" />
+            </label>
+            <input type="submit" class="search-submit button"/>
+        </form>
+        </div>
+    </div>
+    <div class="nav-end">
+  </header>
+
 
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -30,6 +78,127 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+<div>
+  <h1 class="feature1"> Featured Products</h1> 
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#">All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Music</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Games</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link">More</a>
+        </li>
+    </ul>
+      <div id="products1" class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./Images/TheStrokesAlbum.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">The New Abnormal</h4>
+                <p class="card-text">The Strokes</p>
+                <h5>$24.99</h5>
+                <i> Used from: $16.99</i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./Images/BrunoMarsAlbum.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title">Doo-Wops & Hooligans</h4>
+                <p class="card-text">Bruno Mars</p>
+                <h5>$24.99</h5>
+                <i> Used from: $16.99</i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./Images/TylerTheCreatorAllbum.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title">IGOR</h4>
+                  <p class="card-text">Tyler the Creator</p>
+                  <h5>$24.99</h5>
+                  <i> Used from: $16.99</i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./Images/EdSheeranAlbum.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title">X</h4>
+                <p class="card-text">Ed Sheeran</p>
+                <h5>$24.99</h5>
+                <i> Used from: $16.99</i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card">
+                <img src="./Images/ImagineDragonsAlbum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Mercury</h4>
+                  <p class="card-text">Imagine Dragons</p>
+                  <h5>$24.99</h5>
+                  <i> Used from: $16.99</i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./Images/MGMTAlbum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Little Dark Age</h4>
+                  <p class="card-text">MGMT</p>
+                  <h5>$24.99</h5>
+                  <i> Used from: $16.99</i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./Images/NirvanaAlbum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">In Utero</h4>
+                  <p class="card-text">Nirvana</p>
+                  <h5>$24.99</h5>
+                  <i> Used from: $16.99</i>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./Images/EltonJohnAlbum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Goodbye YBR-LP</h4>
+                  <p class="card-text">Elton John</p>
+                  <h5>$24.99</h5>
+                  <i> Used from: $16.99</i>
+                </div>
+              </div>
+            </div>
+        </div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">View All ></a>
+          </li>
+        </ul>
+ </div>
+
+  <div class="footer footer-container">
+    <img src="./Images/Footer.png" width="100%">
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </html>
