@@ -445,5 +445,11 @@ button {
 #Memberships {
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 130px;
+  padding-top: 130px;
   }
+
+.MovieStore {
+  display: flex;
+  justify-content: center; 
+  padding-bottom: 130px;
+}
